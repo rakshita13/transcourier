@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/drawable/bgradient.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/drawable/finalbg.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/drawable/gradient2.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/drawable/gradient3.xml" value="0.1984375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/drawable/gradient4.xml" value="0.1984375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/drawable/gradient5.xml" value="0.25104166666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/drawable/gradient6.xml" value="0.1984375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/drawable/gradient7.xml" value="0.2515625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/drawable/gradient_background.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/drawable/gradienttt.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/drawable/gradientwindow.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/drawable/login.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/drawable/navbg.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/font/abhaya_libre.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/font/im_fell_great_primer_sc.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activirt_mapscheck.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_bottomnav.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_detailedactivity.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_detailedactivity2.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_homepage.xml" value="0.2359375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_lastactivity.xml" value="0.2359375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_llsignature.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_loginactivity.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_loginactivityy.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_maps.xml" value="0.2078125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_newactivity.xml" value="0.2359375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_profile.xml" value="0.23282051282051283" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_signature.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_signin.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_signinactivity.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_splashactivity.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_tenantinfo.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_tenantinfo2.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_tsignature.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_tsignature2.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/activity_tsignaturepad.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/dropdown_menu.xml" value="0.2359375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/fragment_1.xml" value="0.2359375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/fragment_2.xml" value="0.10520833333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/fragment_about.xml" value="0.221875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/fragment_account.xml" value="0.2359375" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/fragment_home.xml" value="0.221875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/layout/fragment_notification.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/RANTSONLI/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

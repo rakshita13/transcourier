@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "982580609147",
+    "project_id": "rantsonli",
+    "storage_bucket": "rantsonli.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982580609147:android:bf975af2061b1195d862de",
+        "android_client_info": {
+          "package_name": "com.example.rantsonli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982580609147-4o2khbra4rac49jluc64gp3bi72lh781.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBihx-AobGN0ddgDLDlIPjScgvX8ITpj5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982580609147-4o2khbra4rac49jluc64gp3bi72lh781.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

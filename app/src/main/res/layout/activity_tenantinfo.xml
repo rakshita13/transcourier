@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient6"
+    tools:context=".Tenantinfo">
+
+    <TextView
+        android:id="@+id/Tenantinfo"
+        android:layout_width="362dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_horizontal"
+        android:text="TELL US ABOUT YOURSELF"
+        android:textColor="#039BE5"
+        android:textColorHint="@color/mbn"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tname"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="48dp"
+        android:backgroundTint="@color/material_on_background_emphasis_medium"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="NAME "
+        android:inputType="textPersonName"
+        android:textColor="#0B0A0A"
+        android:textColorHint="@color/mbn"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tenantinfo" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/material_on_background_emphasis_medium"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="CONTACT NUMBER"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#040303"
+        android:textColorHint="@color/mbn"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@color/material_on_background_emphasis_medium"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="OCCUPATION"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#090808"
+        android:textColorHint="@color/mbn"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/material_on_background_emphasis_medium"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="WORK CONTACT NUMBER"
+        android:inputType="number"
+        android:textColor="#050505"
+        android:textColorHint="@color/mbn"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/material_on_background_emphasis_medium"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="WORK ADDRESS"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#121212"
+        android:textColorHint="@color/mbn"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/material_on_background_emphasis_medium"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="#100F0F"
+        android:textColorHint="@color/mbn"
+        app:layout_constraintBottom_toTopOf="@+id/next2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="83dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/material_on_primary_disabled"
+        android:text="MALE"
+        android:textColor="@color/mbn"
+        android:textColorHint="@color/mbn"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton5"
+        app:layout_constraintEnd_toStartOf="@+id/radioButton5"
+        app:layout_constraintTop_toBottomOf="@+id/tname"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/material_on_primary_disabled"
+        android:text="FEMALE"
+        android:textColor="@color/mbn"
+        android:textColorHint="@color/mbn"
+        app:layout_constraintStart_toStartOf="@+id/tname"
+        app:layout_constraintTop_toBottomOf="@+id/tname" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="83dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/material_on_primary_disabled"
+        android:text="OTHER"
+        android:textColor="@color/mbn"
+        android:textColorHighlight="@color/material_on_primary_emphasis_medium"
+        android:textColorHint="@color/mbn"
+        app:layout_constraintStart_toEndOf="@+id/radioButton5"
+        app:layout_constraintTop_toTopOf="@+id/radioButton5" />
+
+    <Button
+        android:id="@+id/next2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/common_google_signin_btn_text_light_default"
+        android:fontFamily="@font/roboto_medium"
+        android:text="NEXT"
+        android:textColor="@color/white"
+        android:textColorHint="@color/mbn"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/material_on_background_emphasis_medium"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="AGE"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#0B0A0A"
+        android:textColorHint="@color/mbn"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

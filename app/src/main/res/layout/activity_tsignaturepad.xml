@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient6"
+    android:orientation="vertical">
+
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/signaturePad"
+        android:layout_width="294dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="5"
+        android:background="@android:color/white"
+        android:clickable="false"
+        android:eventsInterceptionEnabled="true"
+        android:fadeEnabled="false"
+        android:fadeOffset="10000000"
+        android:gestureColor="#000000"
+        android:gestureStrokeLengthThreshold="0.1"
+        android:gestureStrokeType="multiple"
+        android:longClickable="false"
+        android:orientation="vertical"
+        android:splitMotionEvents="true"
+        android:uncertainGestureColor="#DA1406">
+
+    </android.gesture.GestureOverlayView>
+
+    <RelativeLayout
+        android:id="@+id/rellay_esign_donebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient7"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/DoneButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:text="Done" />
+
+            <Button
+                android:id="@+id/ClearButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="Clear" />
+
+            <Button
+                android:id="@+id/nextonli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:text="NEXT" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

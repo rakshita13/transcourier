@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0EEF1"
+    tools:context=".NotificationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="73dp"
+        android:layout_height="18dp"
+        android:text="15/08/21"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/bgradient"
+        android:src="@android:drawable/ic_menu_send"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="290dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/material_on_primary_disabled"
+        android:backgroundTint="@color/material_on_primary_disabled"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="left"
+        android:text="Shiv Jain brought you the parcel."
+        android:textColor="#101010"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="73dp"
+        android:layout_height="18dp"
+        android:text="15/08/21"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="290dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/material_on_primary_disabled"
+        android:backgroundTint="@color/material_on_primary_disabled"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="left"
+        android:text="You picked up the parcel from Shiv Jain."
+        android:textColor="#101010"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="73dp"
+        android:layout_height="18dp"
+        android:text="15/08/21"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/ic_notifications_black_24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="290dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/material_on_primary_disabled"
+        android:backgroundTint="@color/material_on_primary_disabled"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="left"
+        android:text="You delivered the parcel from Shiv Jain to Reema Patel."
+        android:textColor="#101010"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="73dp"
+        android:layout_height="18dp"
+        android:text="20/08/21"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="73dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="4dp"
+        android:text="20 sec ago"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="73dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="8dp"
+        android:text="15/08/21"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="290dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/material_on_primary_disabled"
+        android:backgroundTint="@color/material_on_primary_disabled"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="left"
+        android:text="Ritvik Mathur started following you."
+        android:textColor="#101010"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="290dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/material_on_primary_disabled"
+        android:backgroundTint="@color/material_on_primary_disabled"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="left"
+        android:text="Shiv Jain sent you a message."
+        android:textColor="#101010"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/bgradient"
+        android:src="@android:drawable/ic_menu_add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/bgradient"
+        android:src="@android:drawable/ic_menu_send"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="73dp"
+        android:layout_height="18dp"
+        android:text="11:40 PM"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/ic_notifications_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="290dp"
+        android:layout_height="54dp"
+        android:background="@color/material_on_primary_disabled"
+        android:backgroundTint="@color/material_on_primary_disabled"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="left"
+        android:text="You delivered the parcel from Megha Creations to Kirti Singh."
+        android:textColor="#101010"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bgradient"
+        android:src="@android:drawable/sym_action_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bgradient"
+        android:src="@android:drawable/checkbox_on_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="290dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/material_on_primary_disabled"
+        android:backgroundTint="@color/material_on_primary_disabled"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="left"
+        android:text="You Just completed your first five deliveries."
+        android:textColor="#101010"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="73dp"
+        android:layout_height="18dp"
+        android:text="23/08/21"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="290dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:background="@color/material_on_primary_disabled"
+        android:backgroundTint="@color/material_on_primary_disabled"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="left"
+        android:text="Amrita Mathur sent you a message."
+        android:textColor="#101010"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/ic_dashboard_black_24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView17" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
